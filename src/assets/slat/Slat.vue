@@ -59,17 +59,6 @@ export default {
                 },
             ]
         }
-    },
-
-    methods: {
-        setBadgeClass: function(status) {
-            return {
-                'c-badge': true,
-                'c-badge--success': status === "Sent",
-                'c-badge--error': status === "Paused",
-                'c-badge--base': status === "Draft"
-            }
-        }
     }
 }
 </script>
